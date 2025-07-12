@@ -1,0 +1,332 @@
+
+
+.inter-normalfont {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+body{
+  
+  margin: 0% auto;
+  max-width: 1140px;
+}
+
+/*Nav style */
+
+nav{ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 50px 150px;
+    
+}
+
+header{
+  background-image: url(/Assets/Hero-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#firstbutton{
+    height: 48px;
+    width: 144px;
+    font-size: 16px;
+}
+
+#secondbutton{
+    height: 48px;
+    width: 174px;
+   font-size: 16px;
+   
+}
+
+#thirdbutton{
+  height: 48px;
+  width: 229px;
+  font-size: 16px;
+}
+
+.fourthbutton{
+  height: 48px;
+  width: 195px;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+.fifthbutton{
+  height: 62px;
+  width: 497px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+.banner-content{
+    font-size: 65px;
+    align-items: center;
+  
+    text-align: center;
+    color: #252432;
+    margin-bottom: 268px;
+    
+}
+
+
+
+/* Shared Styles*/
+
+.theme {
+    color: #4E47FF;
+}
+
+.banner{
+  justify-content: center;
+    align-items: center;
+}
+
+.action{
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+}
+
+.action-title{
+  font-size: 24px;
+  color: #252432;
+  font-weight: 400;
+  opacity: 50%;
+
+}
+
+/*action page*/
+#total-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.image-content img{
+  border-radius: 48px;
+}
+
+
+
+/*User Feedback*/
+.user {
+    background-color: rgba(78, 71, 255, 0.1); 
+    width: 1140px;
+    margin: 116px auto;
+    padding: 20px; 
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showoff {
+    font-size: 38px; 
+    font-weight: bold; 
+    color: #252432; 
+    opacity: 100%;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.user-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 80%;
+    
+}
+
+.user-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.number {
+    font-size: 84px; 
+    font-weight: bold;
+    color: #4E47FF;
+    opacity: 100%; 
+    margin-bottom: 10px; 
+}
+
+.feedback {
+    font-size: 20px; 
+    opacity: 50%; 
+    color: #000000; 
+    font-weight: 400; 
+    margin: 0; 
+}
+
+
+/*User Review*/
+.review-title{
+  text-align: center;
+  color: #252432;
+  font-size: 42px;
+  font-weight: bold;
+  margin: 137px auto;
+
+}
+
+
+.reviews{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.review-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.reviewer-info img{
+  border-radius: 50%;
+ 
+  
+}
+
+
+
+.reviewer-name{
+  opacity: 50%;
+  font-weight: bold;
+ 
+}
+
+.review-date{
+  opacity: 50%;
+}
+
+
+/* Focus page */
+.focus{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.focus-image img{
+  border-radius: 48px;
+  padding-top: 20px;
+  max-height: 840px;
+  max-height: auto;
+}
+
+.motto{ padding-top: 213px;
+  font-size: 50px;
+  font-weight: bold;
+  
+
+}
+
+.focus-sub{ 
+  padding-bottom: 20px;
+  opacity: 50%;
+  font-weight: 500;
+
+}
+
+
+.signup-text{
+  font-size: 97px;
+  font-weight: bold;
+}
+
+/* Sign Up form*/
+.sign-up{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-container {
+ 
+  display: flex;
+  box-sizing: border-box;
+  width: 497px;
+}
+
+
+/*footer*/
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.hundred{
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+  display: flex;
+  
+  justify-content: center;
+
+}
+
+.sub-footer{
+  color: #8987A1;
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+.footer-links{
+color: #8987A1;
+display: flex;
+text-align: center;
+gap: 50px;
+
+justify-content: center;
+padding-bottom: 50px;
+text-decoration: none;
+
+}
