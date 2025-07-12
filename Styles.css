@@ -323,10 +323,10 @@ footer{
 color: #8987A1;
 display: flex;
 text-align: center;
-gap: 50px;
+gap: 60px;
 
 justify-content: center;
-padding-bottom: 60%;
+padding-bottom: 50%;
 text-decoration: none;
 
 }
