@@ -298,7 +298,7 @@ footer{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  text-decoration: none;
+ 
 }
 
 .hundred{
@@ -326,7 +326,7 @@ text-align: center;
 gap: 50px;
 
 justify-content: center;
-padding-bottom: 50px;
+padding-bottom: 60%;
 text-decoration: none;
 
 }
